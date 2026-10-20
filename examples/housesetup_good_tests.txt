@@ -1,0 +1,82 @@
+
+# houses
+define house house1 address “1 Story Street, Cambridge, MA”
+define house house2 address “33 Church Street, Cambridge, MA”
+
+# rooms
+define room kitchen floor 1 type kitchen house house1 windows 2
+define room livingroom floor 1 type livingroom house house1 windows 4
+define room kitchen floor 1 type kitchen house house2 windows 1
+define room livingroom floor 1 type livingroom house house2 windows 2
+
+# occupants
+define occupant martin_fowler type adult
+define occupant martha type pet
+define occupant judy type child
+define occupant grandmother type adult
+
+add occupant martin_fowler to_house house1
+add occupant martha to_house house1
+add occupant grandmother to_house house1
+
+add occupant judy to_house house2
+add occupant grandmother to_house house2
+
+# sensors
+define sensor smoke_detector1_1 type smoke_detector room house1:kitchen
+define sensor camera1_2 type camera room house1:livingroom
+define sensor ava2_2 type ava room house2:livingroom
+
+# appliances
+define appliance oven1_1 type oven room house1:kitchen energy-use 500
+define appliance refrigerator1_1 type refrigerator room house1:kitchen energy-use 100
+define appliance refrigerator2_1 type refrigerator room house2:kitchen energy-use 100
+
+# state changes
+set appliance house1:kitchen:oven1_1 status power value ON
+set appliance house1:kitchen:oven1_1 status temperature value 350
+
+show appliance house1:kitchen:oven1_1 status temperature
+show appliance house1:kitchen:oven1_1
+
+# change an existing value
+set appliance house1:kitchen:oven1_1 status temperature value 400
+show appliance house1:kitchen:oven1_1 status temperature
+
+# sensor states
+set sensor house1:kitchen:smoke_detector1_1 status fire value true
+show sensor house1:kitchen:smoke_detector1_1
+
+set sensor house1:livingroom:camera1_2 status occupant_entered value martin_fowler
+show sensor house1:livingroom:camera1_2
+
+# multiword value
+set sensor house2:livingroom:ava2_2 status voice_command value dim lights
+show sensor house2:livingroom:ava2_2
+
+# configuration at different levels
+show configuration
+show configuration house1
+show configuration house1:kitchen
+show configuration house1:kitchen:oven1_1
+
+# energy-use checks
+show energy-use house1:kitchen
+show energy-use house1:kitchen:oven1_1
+
+# turn refrigerator
+set appliance house1:kitchen:refrigerator1_1 status power value ON
+show energy-use house1:kitchen
+show energy-use house1
+
+# turn oven off
+set appliance house1:kitchen:oven1_1 status power value OFF
+show energy-use house1:kitchen
+show energy-use house1:kitchen:oven1_1
+
+# same room name in a different house
+show configuration house2:kitchen
+
+# grandmother is associated with both houses
+show configuration house1
+show configuration house2

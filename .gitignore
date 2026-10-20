@@ -1,0 +1,20 @@
+# Java / build output
+*.class
+build/
+out/
+target/
+.gradle/
+
+# Editor / OS-generated files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary / local files
+*.log
+*.tmp
+*.bak
+*.zip
