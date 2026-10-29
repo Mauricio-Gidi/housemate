@@ -18,12 +18,10 @@ public class DuplicateEntityException extends HousemateModelServiceException {
      * @param identifier identifier of the existing entity
      */
     public DuplicateEntityException(
-        String entityType,
-        String identifier
-    ) {
+            String entityType,
+            String identifier) {
         super(
-            entityType + " already exists: " + identifier
-        );
+                entityType + " already exists: " + identifier);
 
         this.entityType = entityType;
         this.identifier = identifier;

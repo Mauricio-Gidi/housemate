@@ -183,7 +183,7 @@ public class KnowledgeGraph {
                         String objectIdentifier = (k==0) ? object.getIdentifier() : "?";
 
                         String query = subjectIdentifier + " " + predicateIdentifier + " " + objectIdentifier;
-
+                        
                         Set<Triple> set = queryMapSet.get(query);
                         if (set == null) {
                             set = new HashSet<>();

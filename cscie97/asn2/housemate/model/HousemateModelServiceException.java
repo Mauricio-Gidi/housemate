@@ -37,12 +37,11 @@ public class HousemateModelServiceException extends Exception {
      * Creates a Housemate Model Service exception with a message and cause.
      *
      * @param message description of the error
-     * @param cause cause of the error
+     * @param cause   cause of the error
      */
     public HousemateModelServiceException(
-        String message,
-        Throwable cause
-    ) {
+            String message,
+            Throwable cause) {
         super(message, cause);
     }
 }

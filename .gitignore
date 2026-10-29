@@ -1,20 +1,17 @@
-# Java / build output
+# Java / IDE artifacts
 *.class
 build/
 out/
 target/
 .gradle/
-
-# Editor / OS-generated files
 .idea/
 .vscode/
 *.iml
+
+# OS / local artifacts
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# Temporary / local files
 *.log
 *.tmp
 *.bak
-*.zip

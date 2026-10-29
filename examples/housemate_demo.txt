@@ -1,0 +1,25 @@
+# Minimal smart-home demonstration. Actions are simulated.
+define house demo address Cambridge
+define room kitchen floor 1 type kitchen house demo windows 1
+define occupant alex type adult
+add occupant alex to_house demo
+
+define appliance ava type ava room demo:kitchen
+define appliance light type light room demo:kitchen
+define appliance door type door room demo:kitchen
+define appliance thermostat type thermostat room demo:kitchen
+define appliance oven type oven room demo:kitchen energy-use 500
+define appliance fridge type refrigerator room demo:kitchen energy-use 100
+define appliance window type window room demo:kitchen
+define sensor camera type camera room demo:kitchen
+define sensor smoke type smoke_detector room demo:kitchen
+
+set appliance demo:kitchen:thermostat status temperature value 20
+set sensor demo:kitchen:camera status occupantdetected value alex
+set appliance demo:kitchen:ava status voicecommand value lights on
+set appliance demo:kitchen:ava status voicecommand value where is alex?
+set appliance demo:kitchen:oven status power value on
+set appliance demo:kitchen:oven status timetocook value 0
+set appliance demo:kitchen:window status state value open
+set sensor demo:kitchen:smoke status mode value fire
+show energy-use demo

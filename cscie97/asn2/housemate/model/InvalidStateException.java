@@ -15,15 +15,13 @@ public class InvalidStateException extends HousemateModelServiceException {
      * Creates an invalid-state exception.
      */
     public InvalidStateException(
-        String deviceId,
-        String state
-    ) {
+            String deviceId,
+            String state) {
         super(
-            "State not found: "
-                + state
-                + " for device "
-                + deviceId
-        );
+                "State not found: "
+                        + state
+                        + " for device "
+                        + deviceId);
 
         this.deviceId = deviceId;
         this.state = state;

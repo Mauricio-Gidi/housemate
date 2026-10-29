@@ -39,31 +39,26 @@ public class Room {
      * Adds a sensor to this room.
      */
     public void addSensor(
-        String sensorName,
-        String type
-    ) {
+            String sensorName,
+            String type) {
         devices.put(
-            sensorName,
-            new Sensor(sensorName, type)
-        );
+                sensorName,
+                new Sensor(sensorName, type));
     }
 
     /**
      * Adds an appliance to this room.
      */
     public void addAppliance(
-        String applianceName,
-        String type,
-        int energyConsumption
-    ) {
+            String applianceName,
+            String type,
+            int energyConsumption) {
         devices.put(
-            applianceName,
-            new Appliance(
                 applianceName,
-                type,
-                energyConsumption
-            )
-        );
+                new Appliance(
+                        applianceName,
+                        type,
+                        energyConsumption));
     }
 
     /**

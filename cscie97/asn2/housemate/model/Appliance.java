@@ -15,15 +15,14 @@ public class Appliance extends Device {
     /**
      * Creates an appliance.
      *
-     * @param deviceId unique identifier of the appliance
-     * @param type type of appliance
+     * @param deviceId          unique identifier of the appliance
+     * @param type              type of appliance
      * @param energyConsumption energy consumption in watts
      */
     public Appliance(
-        String deviceId,
-        String type,
-        int energyConsumption
-    ) {
+            String deviceId,
+            String type,
+            int energyConsumption) {
         super(deviceId, type);
         this.energyConsumption = energyConsumption;
     }

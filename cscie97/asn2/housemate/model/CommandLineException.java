@@ -37,12 +37,11 @@ public class CommandLineException extends Exception {
      * Creates a command-line exception with a message and cause.
      *
      * @param message description of the error
-     * @param cause cause of the error
+     * @param cause   cause of the error
      */
     public CommandLineException(
-        String message,
-        Throwable cause
-    ) {
+            String message,
+            Throwable cause) {
         super(message, cause);
     }
 }

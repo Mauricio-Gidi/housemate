@@ -3,6 +3,7 @@
 package cscie97.asn2.housemate.model;
 
 /**
+ * s
  * Abstract base class for Housemate devices.
  *
  * @author Mauricio Gidi
@@ -17,12 +18,11 @@ public abstract class Device {
      * Creates a device.
      *
      * @param deviceId unique identifier of the device
-     * @param type type of device
+     * @param type     type of device
      */
     protected Device(
-        String deviceId,
-        String type
-    ) {
+            String deviceId,
+            String type) {
         this.deviceId = deviceId;
         this.type = type;
     }

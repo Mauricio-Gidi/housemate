@@ -22,7 +22,7 @@ public class House {
      * Creates a house.
      *
      * @param globalId globally unique identifier of the house
-     * @param address address of the house
+     * @param address  address of the house
      */
     public House(String globalId, String address) {
         this.globalId = globalId;

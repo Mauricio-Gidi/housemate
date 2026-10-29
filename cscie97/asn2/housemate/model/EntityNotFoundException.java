@@ -18,12 +18,10 @@ public class EntityNotFoundException extends HousemateModelServiceException {
      * @param identifier identifier of the missing entity
      */
     public EntityNotFoundException(
-        String entityType,
-        String identifier
-    ) {
+            String entityType,
+            String identifier) {
         super(
-            entityType + " not found: " + identifier
-        );
+                entityType + " not found: " + identifier);
 
         this.entityType = entityType;
         this.identifier = identifier;

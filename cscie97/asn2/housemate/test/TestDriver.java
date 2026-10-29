@@ -1,16 +1,19 @@
-// TestDrive.java
+// TestDriver.java
 
 package cscie97.asn2.housemate.test;
 
 import cscie97.asn2.housemate.model.CommandLine;
 import cscie97.asn2.housemate.model.HousemateModelService;
-import cscie97.asn2.housemate.model.Service;
+import cscie97.asn2.housemate.model.ModelService;
+import cscie97.asn3.housemate.controller.HouseMateControllerService;
+import cscie97.asn3.housemate.controller.logger.Logger;
 
 /**
- * Runs Housemate Model Service configuration scripts.
+ * Runs HouseMate configuration and test scripts.
+ * Connects the Controller to the Model Service to process device events.
  *
  * @author Mauricio Gidi
- * @version September 29, 2026
+ * @version October 27, 2026
  */
 public class TestDriver {
 
@@ -21,25 +24,36 @@ public class TestDriver {
      */
     public static void main(String[] args) {
 
+        String auth_token = "0";
+
         if (args.length != 1) {
             System.out.println(
-                "Usage: java -cp . cscie97.asn2.housemate.test.TestDriver <script_file>"
-            );
+                    "Usage: java -cp . cscie97.asn2.housemate.test.TestDriver <script_file>");
             return;
         }
 
         String fileName = args[0];
 
         try {
-            Service service = HousemateModelService.getInstance();
-            CommandLine commandLine = new CommandLine(service);
+            ModelService modelService = HousemateModelService.getInstance();
 
-            commandLine.executeScript(fileName);
+            Logger logger = new Logger();
+            HouseMateControllerService controller = new HouseMateControllerService(modelService, logger, auth_token);
+
+            modelService.registerObserver(controller);
+
+            CommandLine commandLine = new CommandLine(modelService, auth_token);
+
+            try {
+                commandLine.executeScript(fileName);
+
+            } finally {
+                controller.shutdownAndWait();
+            }
 
         } catch (Exception e) {
             System.err.println(
-                "Error: " + e.getMessage()
-            );
+                    "Error: " + e.getMessage());
         }
     }
 }
