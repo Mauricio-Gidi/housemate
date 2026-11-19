@@ -1,0 +1,1110 @@
+﻿HOUSEMATE INTEGRATION TEST
+Date: 2026-11-17 12:41:18
+Status: EXECUTION COMPLETED
+Exit code: 0
+======================================================================
+STDOUT:
+Login successful
+Login successful
+true
+true
+Login successful
+true
+Logout successful
+Login successful
+true
+Login successful
+Login successful
+true
+User: judy - judy
+  Assigned: house2_judy_child_resident
+User: martin_fowler - martin_fowler
+  Assigned: house1_martin_fowler_adult_resident
+User: martha - martha
+  Assigned: house1_martha_pet_resident
+User: astro - astro
+  Assigned: house2_astro_pet_resident
+User: grandmother - grandmother
+  Assigned: house1_grandmother_adult_resident
+  Assigned: house2_grandmother_adult_resident
+User: test_reader - Test Reader
+  Assigned: house1_nested_reader
+User: elroy - elroy
+  Assigned: house2_elroy_child_resident
+User: admin - Administrator
+  Assigned: admin_role
+User: george - george
+  Assigned: house2_george_adult_resident
+User: jane - jane
+  Assigned: house2_jane_adult_resident
+Resource: house2:bedroom1 - Room bedroom
+Resource: house2:bedroom2 - Room bedroom
+Resource: house1:kitchen:refrigerator1_1 - Appliance refrigerator
+Resource: house2:bedroom3 - Room bedroom
+Resource: house1:kitchen:door1_1 - Appliance door
+Resource: house1:livingroom:ava1_2 - Appliance ava
+Resource: house2:kitchen - Room kitchen
+Resource: house2:bathroom2:camera2_8 - Sensor camera
+Resource: house2:livingroom:door2_2 - Appliance door
+Resource: house2:livingroom:camera2_2 - Sensor camera
+Resource: house2:diningroom:thermostat2_3 - Appliance thermostat
+Resource: house2:diningroom:window2_3_1 - Appliance window
+Resource: house2:diningroom:window2_3_2 - Appliance window
+Resource: house2:diningroom:door2_3 - Appliance door
+Resource: house1:bathroom2:door1_6 - Appliance door
+Resource: house2:kitchen:door2_1 - Appliance door
+Resource: house1:bathroom2:pandora1_6 - Appliance pandora
+Resource: house1:bedroom1:door1_3 - Appliance door
+Resource: house2:bathroom2:ava2_8 - Appliance ava
+Resource: house2:kitchen:smoke_detector2_1 - Sensor smoke_detector
+Resource: house2:diningroom:ava2_3 - Appliance ava
+Resource: house2:kitchen:window2_1_1 - Appliance window
+Resource: house1:bedroom1:camera1_3 - Sensor camera
+Resource: house2:bedroom1:door2_4 - Appliance door
+Resource: house1:livingroom:light1_2 - Appliance light
+Resource: house2:bedroom2:light2_5 - Appliance light
+Resource: house2:bedroom3:smoke_detector2_6 - Sensor smoke_detector
+Resource: house2:bathroom1:door2_7 - Appliance door
+Resource: house2:kitchen:thermostat2_1 - Appliance thermostat
+Resource: house2:bedroom2:thermostat2_5 - Appliance thermostat
+Resource: house2:livingroom:window2_2_2 - Appliance window
+Resource: house1:livingroom:camera1_2 - Sensor camera
+Resource: house2:livingroom:window2_2_1 - Appliance window
+Resource: house2:bedroom1:light2_4 - Appliance light
+Resource: house1:livingroom:smoke_detector1_2 - Sensor smoke_detector
+Resource: house1:kitchen:light1_1 - Appliance light
+Resource: house2:bedroom3:camera2_6 - Sensor camera
+Resource: house2:bathroom1:camera2_7 - Sensor camera
+Resource: house1:kitchen:thermostat1_1 - Appliance thermostat
+Resource: house2:livingroom:smoke_detector2_2 - Sensor smoke_detector
+Resource: house2:livingroom:thermostat2_2 - Appliance thermostat
+Resource: house2:bathroom1:light2_7 - Appliance light
+Resource: house2:bedroom2:camera2_5 - Sensor camera
+Resource: house2:diningroom:camera2_3 - Sensor camera
+Resource: house1:bedroom2:pandora1_4 - Appliance pandora
+Resource: house2:kitchen:ava2_1 - Appliance ava
+Resource: house2:kitchen:pandora2_1 - Appliance pandora
+Resource: house2:bathroom2:smoke_detector2_8 - Sensor smoke_detector
+Resource: house2:livingroom - Room livingroom
+Resource: house1:bathroom1:smoke_detector1_5 - Sensor smoke_detector
+Resource: house2:bedroom1:thermostat2_4 - Appliance thermostat
+Resource: house1:bathroom2:window1_6_1 - Appliance window
+Resource: house1:bathroom1:camera1_5 - Sensor camera
+Resource: house2:kitchen:camera2_1 - Sensor camera
+Resource: house2:diningroom:light2_3 - Appliance light
+Resource: house2:bathroom1:ava2_7 - Appliance ava
+Resource: house2:bedroom2:door2_5 - Appliance door
+Resource: house2:bathroom2:door2_8 - Appliance door
+Resource: house2:bedroom1:pandora2_4 - Appliance pandora
+Resource: house2:bedroom1:smoke_detector2_4 - Sensor smoke_detector
+Resource: house2:bedroom1:window2_4_4 - Appliance window
+Resource: house2:bedroom1:window2_4_3 - Appliance window
+Resource: house2:bedroom2:pandora2_5 - Appliance pandora
+Resource: house2:bedroom1:window2_4_2 - Appliance window
+Resource: house2:bedroom1:window2_4_1 - Appliance window
+Resource: house1:bedroom1:smoke_detector1_3 - Sensor smoke_detector
+Resource: house1:bedroom2:light1_4 - Appliance light
+Resource: house1:bedroom1:pandora1_3 - Appliance pandora
+Resource: house2:bathroom1:window2_7_1 - Appliance window
+Resource: house1:livingroom - Room livingroom
+Resource: house1:bedroom1:window1_3_1 - Appliance window
+Resource: house1:kitchen:camera1_1 - Sensor camera
+Resource: house2:bedroom3:pandora2_6 - Appliance pandora
+Resource: house2:livingroom:light2_2 - Appliance light
+Resource: house1:bedroom1:window1_3_3 - Appliance window
+Resource: house1:livingroom:pandora1_2 - Appliance pandora
+Resource: house1:bedroom2:smoke_detector1_4 - Sensor smoke_detector
+Resource: house1:bedroom1:window1_3_2 - Appliance window
+Resource: house1:bedroom2:thermostat1_4 - Appliance thermostat
+Resource: house1:bathroom1 - Room bathroom
+Resource: house1:bathroom2:ava1_6 - Appliance ava
+Resource: test_resource - Test resource
+Resource: house1:bathroom2 - Room bathroom
+Resource: house1:bathroom1:ava1_5 - Appliance ava
+Resource: house2:bedroom3:thermostat2_6 - Appliance thermostat
+Resource: house1:livingroom:door1_2 - Appliance door
+Resource: house2:diningroom - Room diningroom
+Resource: house1:bedroom2:ava1_4 - Appliance ava
+Resource: house1:bedroom1:ava1_3 - Appliance ava
+Resource: house1:bedroom2:door1_4 - Appliance door
+Resource: house1:bathroom2:smoke_detector1_6 - Sensor smoke_detector
+Resource: house1:livingroom:window1_2_4 - Appliance window
+Resource: house1:livingroom:window1_2_3 - Appliance window
+Resource: house1:livingroom:window1_2_2 - Appliance window
+Resource: house1:livingroom:window1_2_1 - Appliance window
+Resource: house2:bedroom1:ava2_4 - Appliance ava
+Resource: house1:bathroom2:light1_6 - Appliance light
+Resource: house2:kitchen:light2_1 - Appliance light
+Resource: house2:bedroom3:ava2_6 - Appliance ava
+Resource: house2:bedroom2:window2_5_1 - Appliance window
+Resource: house2:bedroom2:window2_5_2 - Appliance window
+Resource: house2:kitchen:oven2_1 - Appliance oven
+Resource: house1:bedroom1:tv1_3 - Appliance tv
+Resource: house1:bathroom2:camera1_6 - Sensor camera
+Resource: house2:bathroom1:smoke_detector2_7 - Sensor smoke_detector
+Resource: house1:bathroom2:thermostat1_6 - Appliance thermostat
+Resource: house1:bathroom1:light1_5 - Appliance light
+Resource: house1:bedroom1:light1_3 - Appliance light
+Resource: house2:bedroom3:light2_6 - Appliance light
+Resource: house1:kitchen:ava1_1 - Appliance ava
+Resource: house1:bedroom2:window1_4_2 - Appliance window
+Resource: house1:livingroom:thermostat1_2 - Appliance thermostat
+Resource: house1:bedroom2:camera1_4 - Sensor camera
+Resource: house1:bedroom2:window1_4_1 - Appliance window
+Resource: house2:bathroom2:thermostat2_8 - Appliance thermostat
+Resource: house1:kitchen:pandora1_1 - Appliance pandora
+Resource: house1:kitchen:oven1_1 - Appliance oven
+Resource: house2 - 33 Church Street, Cambridge, MA
+Resource: house2:bedroom3:door2_6 - Appliance door
+Resource: house1 - 1 Story Street, Cambridge, MA
+Resource: house1:bathroom1:door1_5 - Appliance door
+Resource: house2:livingroom:pandora2_2 - Appliance pandora
+Resource: house1:kitchen - Room kitchen
+Resource: house2:bedroom2:smoke_detector2_5 - Sensor smoke_detector
+Resource: house2:bathroom2:window2_8_1 - Appliance window
+Resource: house2:diningroom:smoke_detector2_3 - Sensor smoke_detector
+Resource: house1:livingroom:tv1_2 - Appliance tv
+Resource: house2:bathroom2:pandora2_8 - Appliance pandora
+Resource: house1:bathroom1:thermostat1_5 - Appliance thermostat
+Resource: house2:diningroom:pandora2_3 - Appliance pandora
+Resource: house1:kitchen:smoke_detector1_1 - Sensor smoke_detector
+Resource: house1:bedroom2:tv1_4 - Appliance tv
+Resource: house2:bedroom2:ava2_5 - Appliance ava
+Resource: house2:bedroom3:window2_6_2 - Appliance window
+Resource: house1:bathroom1:pandora1_5 - Appliance pandora
+Resource: house2:bedroom3:window2_6_1 - Appliance window
+Resource: house2:bathroom2:light2_8 - Appliance light
+Resource: house2:bedroom1:camera2_4 - Sensor camera
+Resource: house1:bedroom1 - Room bedroom
+Resource: house1:bedroom2 - Room bedroom
+Resource: house2:bathroom2 - Room bathroom
+Resource: house2:bathroom1:thermostat2_7 - Appliance thermostat
+Resource: house2:bathroom1:pandora2_7 - Appliance pandora
+Resource: house2:kitchen:refrigerator2_1 - Appliance refrigerator
+Resource: house2:bathroom1 - Room bathroom
+Resource: house1:bedroom1:thermostat1_3 - Appliance thermostat
+Resource: house2:livingroom:ava2_2 - Appliance ava
+Resource: house1:kitchen:window1_1_1 - Appliance window
+Resource: house1:kitchen:window1_1_2 - Appliance window
+Permission: control_refrigerator - Control refrigerators
+Permission: control_light - Control house lights
+ResourceRole: house1_grandmother_adult_resident - adult_resident @ house1
+Permission: user_admin - Manage users and resources
+ResourceRole: house2_george_adult_resident - adult_resident @ house2
+ResourceRole: house1_nested_reader - nested_reader @ house1
+Permission: control_tv - Control televisions
+Role: nested_reader - Nested Reader
+  Includes: basic_reader
+ResourceRole: house2_elroy_child_resident - child_resident @ house2
+Permission: control_pandora - Control music playback
+Role: pet_resident - Pet Resident
+ResourceRole: house2_grandmother_adult_resident - adult_resident @ house2
+Permission: control_ava - Control voice assistant speech
+Role: admin_role - Administrator
+  Includes: user_admin
+ResourceRole: house1_martin_fowler_adult_resident - adult_resident @ house1
+ResourceRole: house1_martha_pet_resident - pet_resident @ house1
+ResourceRole: house2_astro_pet_resident - pet_resident @ house2
+Role: adult_resident - Adult Resident
+  Includes: view_status
+  Includes: control_door
+  Includes: control_window
+  Includes: control_light
+  Includes: control_thermostat
+  Includes: control_oven
+  Includes: control_refrigerator
+  Includes: control_ava
+  Includes: control_tv
+  Includes: control_pandora
+ResourceRole: house2_jane_adult_resident - adult_resident @ house2
+Permission: control_thermostat - Control house thermostats
+Permission: control_door - Control house doors
+Role: child_resident - Child Resident
+  Includes: view_status
+  Includes: control_door
+  Includes: control_window
+  Includes: control_ava
+Permission: control_oven - Control house ovens
+Permission: control_window - Control house windows
+Role: basic_reader - Basic Reader
+  Includes: view_status
+ResourceRole: house2_judy_child_resident - child_resident @ house2
+Permission: view_status - Read house and device status
+Access: test_reader, active=true, expires=2026-11-17T19:11:17.336711500Z
+Access: admin, active=true, expires=2026-11-17T19:11:17.455400600Z
+Access: admin, active=true, expires=2026-11-17T19:11:17.099090600Z
+Access: test_reader, active=false, expires=2026-11-17T19:11:17.337709700Z
+Access: martha, active=true, expires=2026-11-17T19:11:17.339221100Z
+Access: judy, active=true, expires=2026-11-17T19:11:17.337709700Z
+
+Login successful
+true
+true
+on
+on
+Login successful
+temperature = 350
+power = on
+SIMULATED 911 call: fire in house1:kitchen
+[2026-11-17T18:41:17.585635300Z] [SUCCESS] FireModeCommand: SIMULATED 911 call: fire in house1:kitchen
+[2026-11-17T18:41:17.586636Z] [SUCCESS] ControllerEvaluation: Queued FireModeCommand
+[2026-11-17T18:41:17.587635800Z] [SUCCESS] FireModeCommand: Command executed successfully
+mode = fire
+[2026-11-17T18:41:17.587635800Z] [SUCCESS] ControllerEvaluation: Queued FireModeCommand
+SIMULATED 911 call: fire in house2:kitchen
+[2026-11-17T18:41:17.587635800Z] [SUCCESS] FireModeCommand: SIMULATED 911 call: fire in house2:kitchen
+mode = fire
+[2026-11-17T18:41:17.589142600Z] [SUCCESS] FireModeCommand: Command executed successfully
+[2026-11-17T18:41:17.589668900Z] [SUCCESS] ControllerEvaluation: Queued OccupantDetectedCommand
+[2026-11-17T18:41:17.590681Z] [SUCCESS] ControllerEvaluation: Queued OccupantDetectedCommand
+[2026-11-17T18:41:17.590681Z] [SUCCESS] OccupantDetectedCommand: Occupant jane entered house2:livingroom
+[2026-11-17T18:41:17.594301900Z] [SUCCESS] LightsOnCommand: Set light house2:livingroom:light2_2 power=on
+[2026-11-17T18:41:17.595302200Z] [SUCCESS] ControllerEvaluation: Queued GenericCommand
+House: house2
+Address: 33 Church Street, Cambridge, MA
+Occupant: judy (CHILD)
+Occupant: astro (PET)
+Occupant: grandmother (ADULT)
+Occupant: elroy (CHILD)
+Occupant: george (ADULT)
+Occupant: jane (ADULT)
+Room: bedroom3
+Type: bedroom
+Floor: 2
+Windows: 2
+Device: window2_6_2
+Type: window
+Energy Use: 0
+Device: smoke_detector2_6
+Type: smoke_detector
+Device: door2_6
+Type: door
+Energy Use: 0
+Device: window2_6_1
+Type: window
+Energy Use: 0
+Device: camera2_6
+Type: camera
+Device: thermostat2_6
+Type: thermostat
+Energy Use: 0
+Device: ava2_6
+Type: ava
+Energy Use: 0
+Device: light2_6
+Type: light
+Energy Use: 0
+Device: pandora2_6
+Type: pandora
+Energy Use: 0
+Room: bedroom2
+Type: bedroom
+Floor: 2
+Windows: 2
+Device: smoke_detector2_5
+Type: smoke_detector
+Device: door2_5
+Type: door
+Energy Use: 0
+Device: window2_5_1
+Type: window
+Energy Use: 0
+Device: window2_5_2
+Type: window
+Energy Use: 0
+Device: thermostat2_5
+Type: thermostat
+Energy Use: 0
+Device: pandora2_5
+Type: pandora
+Energy Use: 0
+Device: ava2_5
+Type: ava
+Energy Use: 0
+Device: light2_5
+Type: light
+Energy Use: 0
+Device: camera2_5
+Type: camera
+Room: bedroom1
+Type: bedroom
+Floor: 2
+Windows: 4
+Device: window2_4_4
+Type: window
+Energy Use: 0
+Device: door2_4
+Type: door
+Energy Use: 0
+Device: smoke_detector2_4
+Type: smoke_detector
+Device: window2_4_1
+Type: window
+Energy Use: 0
+Device: window2_4_2
+Type: window
+Energy Use: 0
+Device: window2_4_3
+Type: window
+Energy Use: 0
+Device: thermostat2_4
+Type: thermostat
+Energy Use: 0
+Device: ava2_4
+Type: ava
+Energy Use: 0
+Device: pandora2_4
+Type: pandora
+Energy Use: 0
+Device: camera2_4
+Type: camera
+Device: light2_4
+Type: light
+Energy Use: 0
+Room: diningroom
+Type: diningroom
+Floor: 1
+Windows: 2
+Device: door2_3
+Type: door
+Energy Use: 0
+Device: smoke_detector2_3
+Type: smoke_detector
+Device: pandora2_3
+Type: pandora
+Energy Use: 0
+Device: window2_3_1
+Type: window
+Energy Use: 0
+Device: window2_3_2
+Type: window
+Energy Use: 0
+Device: thermostat2_3
+Type: thermostat
+Energy Use: 0
+Device: ava2_3
+Type: ava
+Energy Use: 0
+Device: camera2_3
+Type: camera
+Device: light2_3
+Type: light
+Energy Use: 0
+Room: livingroom
+Type: livingroom
+Floor: 1
+Windows: 2
+Device: light2_2
+Type: light
+Energy Use: 0
+Device: pandora2_2
+Type: pandora
+Energy Use: 0
+Device: window2_2_2
+Type: window
+Energy Use: 0
+Device: thermostat2_2
+Type: thermostat
+Energy Use: 0
+Device: ava2_2
+Type: ava
+Energy Use: 0
+Device: tv2_2
+Type: tv
+Energy Use: 0
+Device: window2_2_1
+Type: window
+Energy Use: 0
+Device: camera2_2
+Type: camera
+Device: smoke_detector2_2
+Type: smoke_detector
+Device: door2_2
+Type: door
+Energy Use: 0
+Room: bathroom1
+Type: bathroom
+Floor: 1
+Windows: 1
+Device: window2_7_1
+Type: window
+Energy Use: 0
+Device: door2_7
+Type: door
+Energy Use: 0
+Device: smoke_detector2_7
+Type: smoke_detector
+Device: camera2_7
+Type: camera
+Device: thermostat2_7
+Type: thermostat
+Energy Use: 0
+Device: light2_7
+Type: light
+Energy Use: 0
+Device: pandora2_7
+Type: pandora
+Energy Use: 0
+Device: ava2_7
+Type: ava
+Energy Use: 0
+Room: kitchen
+Type: kitchen
+Floor: 1
+Windows: 1
+Device: pandora2_1
+Type: pandora
+Energy Use: 0
+Device: light2_1
+Type: light
+Energy Use: 0
+Device: refrigerator2_1
+Type: refrigerator
+Energy Use: 100
+Device: camera2_1
+Type: camera
+Device: thermostat2_1
+Type: thermostat
+Energy Use: 0
+Device: oven2_1
+Type: oven
+Energy Use: 700
+Device: ava2_1
+Type: ava
+Energy Use: 0
+Device: window2_1_1
+Type: window
+Energy Use: 0
+Device: smoke_detector2_1
+Type: smoke_detector
+Device: door2_1
+Type: door
+Energy Use: 0
+Room: bathroom2
+Type: bathroom
+Floor: 2
+Windows: 1
+Device: window2_8_1
+Type: window
+Energy Use: 0
+Device: door2_8
+Type: door
+Energy Use: 0
+Device: smoke_detector2_8
+Type: smoke_detector
+Device: pandora2_8
+Type: pandora
+Energy Use: 0
+Device: camera2_8
+Type: camera
+Device: light2_8
+Type: light
+Energy Use: 0
+Device: thermostat2_8
+Type: thermostat
+Energy Use: 0
+Device: ava2_8
+Type: ava
+Energy Use: 0
+House: house1
+Address: 1 Story Street, Cambridge, MA
+Occupant: martin_fowler (ADULT)
+Occupant: martha (PET)
+Occupant: grandmother (ADULT)
+Room: bedroom2
+Type: bedroom
+Floor: 2
+Windows: 2
+Device: door1_4
+Type: door
+Energy Use: 0
+Device: smoke_detector1_4
+Type: smoke_detector
+Device: pandora1_4
+Type: pandora
+Energy Use: 0
+Device: thermostat1_4
+Type: thermostat
+Energy Use: 0
+Device: window1_4_1
+Type: window
+Energy Use: 0
+Device: window1_4_2
+Type: window
+Energy Use: 0
+Device: ava1_4
+Type: ava
+Energy Use: 0
+Device: camera1_4
+Type: camera
+Device: tv1_4
+Type: tv
+Energy Use: 0
+Device: light1_4
+Type: light
+Energy Use: 0
+Room: bedroom1
+Type: bedroom
+Floor: 2
+Windows: 3
+Device: light1_3
+Type: light
+Energy Use: 0
+Device: pandora1_3
+Type: pandora
+Energy Use: 0
+Device: window1_3_2
+Type: window
+Energy Use: 0
+Device: thermostat1_3
+Type: thermostat
+Energy Use: 0
+Device: window1_3_3
+Type: window
+Energy Use: 0
+Device: ava1_3
+Type: ava
+Energy Use: 0
+Device: window1_3_1
+Type: window
+Energy Use: 0
+Device: tv1_3
+Type: tv
+Energy Use: 0
+Device: camera1_3
+Type: camera
+Device: smoke_detector1_3
+Type: smoke_detector
+Device: door1_3
+Type: door
+Energy Use: 0
+Room: livingroom
+Type: livingroom
+Floor: 1
+Windows: 4
+Device: pandora1_2
+Type: pandora
+Energy Use: 0
+Device: light1_2
+Type: light
+Energy Use: 0
+Device: camera1_2
+Type: camera
+Device: thermostat1_2
+Type: thermostat
+Energy Use: 0
+Device: window1_2_3
+Type: window
+Energy Use: 0
+Device: window1_2_4
+Type: window
+Energy Use: 0
+Device: window1_2_1
+Type: window
+Energy Use: 0
+Device: ava1_2
+Type: ava
+Energy Use: 0
+Device: window1_2_2
+Type: window
+Energy Use: 0
+Device: tv1_2
+Type: tv
+Energy Use: 0
+Device: smoke_detector1_2
+Type: smoke_detector
+Device: door1_2
+Type: door
+Energy Use: 0
+Room: bathroom1
+Type: bathroom
+Floor: 1
+Windows: 0
+Device: door1_5
+Type: door
+Energy Use: 0
+Device: smoke_detector1_5
+Type: smoke_detector
+Device: thermostat1_5
+Type: thermostat
+Energy Use: 0
+Device: ava1_5
+Type: ava
+Energy Use: 0
+Device: pandora1_5
+Type: pandora
+Energy Use: 0
+Device: camera1_5
+Type: camera
+Device: light1_5
+Type: light
+Energy Use: 0
+Room: kitchen
+Type: kitchen
+Floor: 1
+Windows: 2
+Device: pandora1_1
+Type: pandora
+Energy Use: 0
+Device: camera1_1
+Type: camera
+Device: light1_1
+Type: light
+Energy Use: 0
+Device: oven1_1
+Type: oven
+Energy Use: 500
+Device: thermostat1_1
+Type: thermostat
+Energy Use: 0
+Device: ava1_1
+Type: ava
+Energy Use: 0
+Device: refrigerator1_1
+Type: refrigerator
+Energy Use: 100
+Device: window1_1_2
+Type: window
+Energy Use: 0
+Device: window1_1_1
+Type: window
+Energy Use: 0
+Device: door1_1
+Type: door
+Energy Use: 0
+Device: smoke_detector1_1
+Type: smoke_detector
+Room: bathroom2
+Type: bathroom
+Floor: 2
+Windows: 1
+Device: smoke_detector1_6
+Type: smoke_detector
+Device: door1_6
+Type: door
+Energy Use: 0
+Device: window1_6_1
+Type: window
+Energy Use: 0
+Device: thermostat1_6
+Type: thermostat
+Energy Use: 0
+Device: pandora1_6
+Type: pandora
+Energy Use: 0
+Device: ava1_6
+Type: ava
+Energy Use: 0
+Device: light1_6
+Type: light
+Energy Use: 0
+Device: camera1_6
+Type: camera
+House: house1
+Address: 1 Story Street, Cambridge, MA
+Occupant: martin_fowler (ADULT)
+Occupant: martha (PET)
+Occupant: grandmother (ADULT)
+Room: bedroom2
+Type: bedroom
+Floor: 2
+Windows: 2
+Device: door1_4
+Type: door
+Energy Use: 0
+Device: smoke_detector1_4
+Type: smoke_detector
+Device: pandora1_4
+Type: pandora
+Energy Use: 0
+Device: thermostat1_4
+Type: thermostat
+Energy Use: 0
+Device: window1_4_1
+Type: window
+Energy Use: 0
+Device: window1_4_2
+Type: window
+Energy Use: 0
+Device: ava1_4
+Type: ava
+Energy Use: 0
+Device: camera1_4
+Type: camera
+Device: tv1_4
+Type: tv
+Energy Use: 0
+Device: light1_4
+Type: light
+Energy Use: 0
+Room: bedroom1
+Type: bedroom
+Floor: 2
+Windows: 3
+Device: light1_3
+Type: light
+Energy Use: 0
+Device: pandora1_3
+Type: pandora
+Energy Use: 0
+Device: window1_3_2
+Type: window
+Energy Use: 0
+Device: thermostat1_3
+Type: thermostat
+Energy Use: 0
+Device: window1_3_3
+Type: window
+Energy Use: 0
+Device: ava1_3
+Type: ava
+Energy Use: 0
+Device: window1_3_1
+Type: window
+Energy Use: 0
+Device: tv1_3
+Type: tv
+Energy Use: 0
+Device: camera1_3
+Type: camera
+Device: smoke_detector1_3
+Type: smoke_detector
+Device: door1_3
+Type: door
+Energy Use: 0
+Room: livingroom
+Type: livingroom
+Floor: 1
+Windows: 4
+Device: pandora1_2
+Type: pandora
+Energy Use: 0
+Device: light1_2
+Type: light
+Energy Use: 0
+Device: camera1_2
+Type: camera
+Device: thermostat1_2
+Type: thermostat
+Energy Use: 0
+Device: window1_2_3
+Type: window
+Energy Use: 0
+Device: window1_2_4
+Type: window
+Energy Use: 0
+Device: window1_2_1
+Type: window
+Energy Use: 0
+Device: ava1_2
+Type: ava
+Energy Use: 0
+Device: window1_2_2
+Type: window
+Energy Use: 0
+Device: tv1_2
+Type: tv
+Energy Use: 0
+Device: smoke_detector1_2
+Type: smoke_detector
+Device: door1_2
+Type: door
+Energy Use: 0
+Room: bathroom1
+Type: bathroom
+Floor: 1
+Windows: 0
+Device: door1_5
+Type: door
+Energy Use: 0
+Device: smoke_detector1_5
+Type: smoke_detector
+Device: thermostat1_5
+Type: thermostat
+Energy Use: 0
+Device: ava1_5
+Type: ava
+Energy Use: 0
+Device: pandora1_5
+Type: pandora
+Energy Use: 0
+Device: camera1_5
+Type: camera
+Device: light1_5
+Type: light
+Energy Use: 0
+Room: kitchen
+Type: kitchen
+Floor: 1
+Windows: 2
+Device: pandora1_1
+Type: pandora
+Energy Use: 0
+Device: camera1_1
+Type: camera
+Device: light1_1
+Type: light
+Energy Use: 0
+Device: oven1_1
+Type: oven
+Energy Use: 500
+Device: thermostat1_1
+Type: thermostat
+Energy Use: 0
+Device: ava1_1
+Type: ava
+Energy Use: 0
+Device: refrigerator1_1
+Type: refrigerator
+Energy Use: 100
+Device: window1_1_2
+Type: window
+Energy Use: 0
+Device: window1_1_1
+Type: window
+Energy Use: 0
+Device: door1_1
+Type: door
+Energy Use: 0
+Device: smoke_detector1_1
+Type: smoke_detector
+Room: bathroom2
+Type: bathroom
+Floor: 2
+Windows: 1
+Device: smoke_detector1_6
+Type: smoke_detector
+Device: door1_6
+Type: door
+Energy Use: 0
+Device: window1_6_1
+Type: window
+Energy Use: 0
+Device: thermostat1_6
+Type: thermostat
+Energy Use: 0
+Device: pandora1_6
+Type: pandora
+Energy Use: 0
+Device: ava1_6
+Type: ava
+Energy Use: 0
+Device: light1_6
+Type: light
+Energy Use: 0
+Device: camera1_6
+Type: camera
+Room: kitchen
+Type: kitchen
+Floor: 1
+Windows: 2
+Device: pandora1_1
+Type: pandora
+Energy Use: 0
+Device: camera1_1
+Type: camera
+Device: light1_1
+Type: light
+Energy Use: 0
+Device: oven1_1
+Type: oven
+Energy Use: 500
+Device: thermostat1_1
+Type: thermostat
+Energy Use: 0
+Device: ava1_1
+Type: ava
+Energy Use: 0
+Device: refrigerator1_1
+Type: refrigerator
+Energy Use: 100
+Device: window1_1_2
+Type: window
+Energy Use: 0
+Device: window1_1_1
+Type: window
+Energy Use: 0
+Device: door1_1
+Type: door
+Energy Use: 0
+Device: smoke_detector1_1
+Type: smoke_detector
+Device: oven1_1
+Type: oven
+Energy Use: 500
+1200 W
+[2026-11-17T18:41:17.598809700Z] [SUCCESS] OccupantDetectedCommand: Set thermostat house2:livingroom:thermostat2_2 temperature=21
+[2026-11-17T18:41:17.598809700Z] [SUCCESS] OccupantDetectedCommand: Command executed successfully
+[2026-11-17T18:41:17.598809700Z] [SUCCESS] OccupantDetectedCommand: Occupant elroy entered house2:livingroom
+500 W
+[2026-11-17T18:41:17.598809700Z] [SUCCESS] LightsOnCommand: Set light house2:livingroom:light2_2 power=on
+500 W
+[2026-11-17T18:41:17.599819Z] [SUCCESS] OccupantDetectedCommand: Set thermostat house2:livingroom:thermostat2_2 temperature=22
+[2026-11-17T18:41:17.599819Z] [SUCCESS] OccupantDetectedCommand: Command executed successfully
+500 W
+[2026-11-17T18:41:17.601331900Z] [SUCCESS] ControllerEvaluation: Queued OpenDoorCommand
+[2026-11-17T18:41:17.602331700Z] [SUCCESS] ControllerEvaluation: Queued CloseDoorCommand
+[2026-11-17T18:41:17.603334Z] [SUCCESS] GenericCommand: Set light house2:livingroom:light2_2 brightness=50
+[2026-11-17T18:41:17.603334Z] [SUCCESS] ControllerEvaluation: Queued LightsOnCommand
+[2026-11-17T18:41:17.605334800Z] [SUCCESS] ControllerEvaluation: Queued LightsOffCommand
+[2026-11-17T18:41:17.606332300Z] [SUCCESS] ControllerEvaluation: Queued GenericCommand
+[2026-11-17T18:41:17.606332300Z] [SUCCESS] GenericCommand: Ava house2:livingroom:ava2_2 announced: I set light brightness to 50.
+Ava: I set light brightness to 50.
+[2026-11-17T18:41:17.607333400Z] [SUCCESS] GenericCommand: Command executed successfully
+[2026-11-17T18:41:17.607333400Z] [SUCCESS] ControllerEvaluation: Queued OccupantDetectedCommand
+[2026-11-17T18:41:17.607333400Z] [SUCCESS] OpenDoorCommand: Set door house1:kitchen:door1_1 state=open
+[2026-11-17T18:41:17.607333400Z] [SUCCESS] OpenDoorCommand: Command executed successfully
+[2026-11-17T18:41:17.607333400Z] [SUCCESS] CloseDoorCommand: Set door house1:kitchen:door1_1 state=closed
+[2026-11-17T18:41:17.608843600Z] [SUCCESS] CloseDoorCommand: Command executed successfully
+[2026-11-17T18:41:17.608843600Z] [SUCCESS] LightsOnCommand: Set light house1:kitchen:light1_1 power=on
+[2026-11-17T18:41:17.608843600Z] [SUCCESS] LightsOnCommand: Command executed successfully
+[2026-11-17T18:41:17.608843600Z] [SUCCESS] ControllerEvaluation: Queued WhereIsCommand
+[2026-11-17T18:41:17.609852900Z] [SUCCESS] LightsOffCommand: Set light house1:kitchen:light1_1 power=off
+[2026-11-17T18:41:17.609852900Z] [SUCCESS] LightsOffCommand: Command executed successfully
+[2026-11-17T18:41:17.609852900Z] [SUCCESS] GenericCommand: Set refrigerator house1:kitchen:refrigerator1_1 temperature=4
+[2026-11-17T18:41:17.609852900Z] [SUCCESS] GenericCommand: Ava house1:kitchen:ava1_1 announced: I set refrigerator temperature to 4.
+Ava: I set refrigerator temperature to 4.
+[2026-11-17T18:41:17.609852900Z] [SUCCESS] GenericCommand: Command executed successfully
+[2026-11-17T18:41:17.609852900Z] [SUCCESS] ControllerEvaluation: Queued OccupantInactiveCommand
+[2026-11-17T18:41:17.611128500Z] [SUCCESS] OccupantDetectedCommand: Occupant martin_fowler entered house1:kitchen
+[2026-11-17T18:41:17.611128500Z] [SUCCESS] LightsOnCommand: Set light house1:kitchen:light1_1 power=on
+[2026-11-17T18:41:17.611128500Z] [SUCCESS] OccupantDetectedCommand: Set thermostat house1:kitchen:thermostat1_1 temperature=21
+[2026-11-17T18:41:17.612131900Z] [SUCCESS] OccupantDetectedCommand: Command executed successfully
+[2026-11-17T18:41:17.612131900Z] [SUCCESS] ControllerEvaluation: Queued OccupantActiveCommand
+[2026-11-17T18:41:17.612131900Z] [SUCCESS] ControllerEvaluation: Queued OccupantDetectedCommand
+[2026-11-17T18:41:17.612131900Z] [SUCCESS] WhereIsCommand: Ava house1:kitchen:ava1_1 announced: martin_fowler is_located_in house1:kitchen
+Ava: martin_fowler is_located_in house1:kitchen
+[2026-11-17T18:41:17.613133300Z] [SUCCESS] ControllerEvaluation: Queued OccupantInactiveCommand
+[2026-11-17T18:41:17.613133300Z] [SUCCESS] WhereIsCommand: Command executed successfully
+[2026-11-17T18:41:17.614128600Z] [SUCCESS] OccupantInactiveCommand: Set light house1:kitchen:light1_1 brightness=50
+[2026-11-17T18:41:17.615128800Z] [SUCCESS] OccupantInactiveCommand: Set occupant martin_fowler status=resting
+[2026-11-17T18:41:17.615128800Z] [SUCCESS] ControllerEvaluation: Queued OccupantLeavingCommand
+[2026-11-17T18:41:17.615128800Z] [SUCCESS] OccupantInactiveCommand: Command executed successfully
+[2026-11-17T18:41:17.616127900Z] [SUCCESS] ControllerEvaluation: Queued OccupantLeavingCommand
+[2026-11-17T18:41:17.616633600Z] [SUCCESS] OccupantActiveCommand: Set occupant martin_fowler status=active
+[2026-11-17T18:41:17.616633600Z] [SUCCESS] ControllerEvaluation: Queued OccupantDetectedCommand
+[2026-11-17T18:41:17.616633600Z] [SUCCESS] OccupantActiveCommand: Command executed successfully
+[2026-11-17T18:41:17.616633600Z] [SUCCESS] OccupantDetectedCommand: Occupant martha entered house1:kitchen
+[2026-11-17T18:41:17.616633600Z] [SUCCESS] ControllerEvaluation: Queued WhereIsCommand
+[2026-11-17T18:41:17.617641800Z] [SUCCESS] LightsOnCommand: Set light house1:kitchen:light1_1 power=on
+[2026-11-17T18:41:17.617641800Z] [SUCCESS] OccupantDetectedCommand: Set thermostat house1:kitchen:thermostat1_1 temperature=22
+[2026-11-17T18:41:17.617641800Z] [SUCCESS] OccupantDetectedCommand: Command executed successfully
+[2026-11-17T18:41:17.617641800Z] [SUCCESS] OccupantInactiveCommand: Command executed successfully
+[2026-11-17T18:41:17.619150600Z] [SUCCESS] OccupantLeavingCommand: Occupant martin_fowler left house1:kitchen
+[2026-11-17T18:41:17.619150600Z] [SUCCESS] OccupantLeavingCommand: Command executed successfully
+[2026-11-17T18:41:17.619150600Z] [SUCCESS] ControllerEvaluation: Queued OccupantDetectedCommand
+[2026-11-17T18:41:17.619150600Z] [SUCCESS] OccupantLeavingCommand: Occupant martha left house1:kitchen
+[2026-11-17T18:41:17.619682200Z] [SUCCESS] ControllerEvaluation: Queued FireModeCommand
+[2026-11-17T18:41:17.619682200Z] [SUCCESS] LightsOffCommand: Set light house1:kitchen:light1_1 power=off
+[2026-11-17T18:41:17.619682200Z] [SUCCESS] OccupantLeavingCommand: Set thermostat house1:kitchen:thermostat1_1 temperature=21
+[2026-11-17T18:41:17.620690300Z] [SUCCESS] OccupantLeavingCommand: Command executed successfully
+[2026-11-17T18:41:17.620690300Z] [SUCCESS] OccupantDetectedCommand: Occupant martin_fowler entered house1:livingroom
+[2026-11-17T18:41:17.620690300Z] [SUCCESS] LightsOnCommand: Set light house1:livingroom:light1_2 power=on
+[2026-11-17T18:41:17.621304900Z] [SUCCESS] OccupantDetectedCommand: Set thermostat house1:livingroom:thermostat1_2 temperature=21
+[2026-11-17T18:41:17.621304900Z] [SUCCESS] ControllerEvaluation: Queued OvenTimerCommand
+[2026-11-17T18:41:17.622315700Z] [SUCCESS] OccupantDetectedCommand: Command executed successfully
+[2026-11-17T18:41:17.623326600Z] [SUCCESS] WhereIsCommand: Ava house1:livingroom:ava1_2 announced: martin_fowler is_located_in house1:livingroom
+Ava: martin_fowler is_located_in house1:livingroom
+[2026-11-17T18:41:17.624314400Z] [SUCCESS] WhereIsCommand: Command executed successfully
+[2026-11-17T18:41:17.624314400Z] [SUCCESS] OccupantDetectedCommand: Occupant alice entered h:kitchen
+[2026-11-17T18:41:17.624314400Z] [SUCCESS] LightsOnCommand: Set light h:kitchen:light1 power=on
+[2026-11-17T18:41:17.625315600Z] [SUCCESS] OccupantDetectedCommand: Set thermostat h:kitchen:thermostat1 temperature=21
+[2026-11-17T18:41:17.625315600Z] [SUCCESS] OccupantDetectedCommand: Command executed successfully
+SIMULATED 911 call: fire in h:kitchen
+[2026-11-17T18:41:17.625315600Z] [SUCCESS] FireModeCommand: SIMULATED 911 call: fire in h:kitchen
+[2026-11-17T18:41:17.625315600Z] [SUCCESS] ControllerEvaluation: Queued BeerCountCommand
+[2026-11-17T18:41:17.626313500Z] [SUCCESS] FireModeCommand: Set light h:kitchen:light1 power=on
+[2026-11-17T18:41:17.626313500Z] [SUCCESS] ControllerEvaluation: Queued BeerCountCommand
+[2026-11-17T18:41:17.626313500Z] [SUCCESS] FireModeCommand: Ava h:kitchen:ava1 announced: Fire in kitchen; please leave the house immediately. Exit through a window if safe.
+Ava (kitchen): Fire in kitchen; please leave the house immediately. Exit through a window if safe.
+[2026-11-17T18:41:17.626313500Z] [SUCCESS] FireModeCommand: Set light h:bedroom:light2 power=on
+[2026-11-17T18:41:17.626313500Z] [SUCCESS] FireModeCommand: Ava h:bedroom:ava2 announced: Fire in kitchen; please leave the house immediately.
+[2026-11-17T18:41:17.626313500Z] [SUCCESS] ControllerEvaluation: Queued BeerCountCommand
+Ava (bedroom): Fire in kitchen; please leave the house immediately.
+[2026-11-17T18:41:17.627313300Z] [SUCCESS] FireModeCommand: Command executed successfully
+[2026-11-17T18:41:17.627313300Z] [SUCCESS] ControllerEvaluation: Queued BeerCountCommand
+[2026-11-17T18:41:17.627313300Z] [SUCCESS] OvenTimerCommand: Set oven house1:kitchen:oven1_1 power=off
+[2026-11-17T18:41:17.627313300Z] [SUCCESS] OvenTimerCommand: Ava house1:kitchen:ava1_1 announced: Food is ready.
+Ava: Food is ready.
+[2026-11-17T18:41:17.627313300Z] [SUCCESS] OvenTimerCommand: Command executed successfully
+[2026-11-17T18:41:17.628821500Z] [SUCCESS] BeerCountCommand: Ava house1:kitchen:ava1_1 announced: Beer count is 2. Would you like to order more?
+Ava: Beer count is 2. Would you like to order more?
+[2026-11-17T18:41:17.628821500Z] [SUCCESS] BeerCountCommand: Command executed successfully
+[2026-11-17T18:41:17.629830500Z] [SUCCESS] ControllerEvaluation: Queued WindowOpenCommand
+[2026-11-17T18:41:17.629830500Z] [SUCCESS] BeerCountCommand: Ava house1:kitchen:ava1_1 announced: Beer order confirmed.
+Ava: Beer order confirmed.
+SIMULATED EMAIL TO STORE: Send more beer to house1
+[2026-11-17T18:41:17.630338200Z] [SUCCESS] BeerCountCommand: SIMULATED EMAIL TO STORE: Send more beer to house1
+[2026-11-17T18:41:17.630338200Z] [SUCCESS] BeerCountCommand: Command executed successfully
+[2026-11-17T18:41:17.630338200Z] [SUCCESS] BeerCountCommand: Ava house1:kitchen:ava1_1 announced: Beer count is 1. Would you like to order more?
+Ava: Beer count is 1. Would you like to order more?
+[2026-11-17T18:41:17.630338200Z] [SUCCESS] BeerCountCommand: Command executed successfully
+[2026-11-17T18:41:17.630338200Z] [SUCCESS] ControllerEvaluation: Queued GenericCommand
+[2026-11-17T18:41:17.630338200Z] [SUCCESS] BeerCountCommand: Ava house1:kitchen:ava1_1 announced: Okay, no beer ordered.
+Ava: Okay, no beer ordered.
+[2026-11-17T18:41:17.631348500Z] [SUCCESS] BeerCountCommand: Command executed successfully
+[2026-11-17T18:41:17.631348500Z] [SUCCESS] ControllerEvaluation: Queued LightsOnCommand
+[2026-11-17T18:41:17.631348500Z] [SUCCESS] WindowOpenCommand: Ava house1:kitchen:ava1_1 announced: Window window1_1_1 opened in kitchen.
+Ava: Window window1_1_1 opened in kitchen.
+[2026-11-17T18:41:17.631348500Z] [SUCCESS] WindowOpenCommand: Command executed successfully
+[2026-11-17T18:41:17.633346200Z] [FAIL] ControllerEvaluation: Unrecognized Ava voice command
+[2026-11-17T18:41:17.633346200Z] [SUCCESS] ControllerEvaluation: Queued GenericCommand
+[2026-11-17T18:41:17.633346200Z] [SUCCESS] ControllerEvaluation: Queued OpenDoorCommand
+[2026-11-17T18:41:17.634348800Z] [SUCCESS] ControllerEvaluation: Queued LightsOffCommand
+[2026-11-17T18:41:17.634348800Z] [FAIL] GenericCommand: Appliance update failed: Expected one microwave appliance; found 0
+[2026-11-17T18:41:17.634348800Z] [SUCCESS] ControllerEvaluation: Queued GenericCommand
+[2026-11-17T18:41:17.634348800Z] [SUCCESS] GenericCommand: Ava house1:kitchen:ava1_1 announced: I could not set microwave power to on.
+Ava: I could not set microwave power to on.
+[2026-11-17T18:41:17.634348800Z] [SUCCESS] ControllerEvaluation: Queued OpenDoorCommand
+[2026-11-17T18:41:17.634348800Z] [PARTIAL] GenericCommand: Command execution failed: java.lang.IllegalStateException: 1 actions succeeded; failures: Appliance update: Expected one microwave appliance; found 0
+[2026-11-17T18:41:17.635349400Z] [FAIL] AvaAuthentication: Voice authentication failed: Unrecognized voiceprint
+[2026-11-17T18:41:17.635349400Z] [SUCCESS] LightsOnCommand: Set light house1:kitchen:light1_1 power=on
+[2026-11-17T18:41:17.635349400Z] [SUCCESS] LightsOnCommand: Command executed successfully
+Login successful
+[2026-11-17T18:41:17.763635Z] [FAIL] GenericCommand: Appliance update failed: Expected one window appliance; found 2
+[2026-11-17T18:41:17.861979500Z] [SUCCESS] GenericCommand: Ava house1:kitchen:ava1_1 announced: I could not set window state to open.
+Ava: I could not set window state to open.
+[2026-11-17T18:41:17.862975600Z] [PARTIAL] GenericCommand: Command execution failed: java.lang.IllegalStateException: 1 actions succeeded; failures: Appliance update: Expected one window appliance; found 2
+Login successful
+true
+[2026-11-17T18:41:17.963023200Z] [FAIL] OpenDoorCommand: Command execution failed: java.lang.IllegalStateException: Expected exactly one door in h:bedroom, found 0
+Login successful
+[2026-11-17T18:41:18.064769600Z] [SUCCESS] LightsOffCommand: Set light house1:kitchen:light1_1 power=off
+[2026-11-17T18:41:18.064769600Z] [SUCCESS] LightsOffCommand: Command executed successfully
+[2026-11-17T18:41:18.176388300Z] [FAIL] GenericCommand: Appliance update failed: Access denied: control_oven on house2:kitchen:oven2_1
+Login successful
+[2026-11-17T18:41:18.324212500Z] [SUCCESS] GenericCommand: Ava house2:kitchen:ava2_1 announced: I could not set oven temperature to 250.
+Ava: I could not set oven temperature to 250.
+[2026-11-17T18:41:18.324212500Z] [PARTIAL] GenericCommand: Command execution failed: java.lang.IllegalStateException: 1 actions succeeded; failures: Appliance update: Access denied: control_oven on house2:kitchen:oven2_1
+true
+[2026-11-17T18:41:18.324212500Z] [FAIL] OpenDoorCommand: Access denied: Access denied: view_status on house1
+
+STDERR:
+Error on line 331: Administrator already initialized
+Error on line 332: Duplicate entitlement: view_status
+Error on line 333: Duplicate user: test_reader
+Error on line 334: Duplicate resource: house1
+Error on line 335: Duplicate entitlement: view_status
+Error on line 336: Cyclic role: nested_reader
+Error on line 337: Duplicate entitlement: house1_nested_reader
+Error on line 338: Unknown resource: missing_house
+Error on line 339: Password credential already registered: test_reader
+Error on line 342: Invalid username or password
+Error on line 346: Access denied: view_status on house2:kitchen
+Error on line 347: Access denied: control_door on house1:kitchen:door1_1
+Error on line 348: Access denied: user_admin on housemate
+Error on line 349: Access denied: user_admin on housemate
+Error on line 355: Login required before restricted commands
+Error on line 358: Access denied: control_oven on house2:kitchen:oven2_1
+Error on line 359: Access denied: control_door on house1:kitchen:door1_1
+Error on line 361: Access denied: view_status on house1
+Error on line 362: Unrecognized voiceprint
+Error on line 367: Invalid or expired access token
+Error on line 529: Invalid set command: set appliance house1:kitchen:oven1_1 status power
+Error on line 531: Device already exists: house1:kitchen:light1_1
+Error on line 533: Device not found: house1:kitchen:missing_device
+Error on line 535: Invalid occupant type: robot
+Error on line 537: State not found: not_set for device oven1_1
+Error on line 567: Access denied: control_light on house1:livingroom:light1_2
+Error on line 577: Access denied: view_status on house1:kitchen:light1_1
+

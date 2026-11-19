@@ -1,0 +1,23 @@
+# Java compilation and tool output
+*.class
+build/
+out/
+target/
+.gradle/
+
+# IDE and local configuration
+.idea/
+.vscode/
+*.iml
+
+# Operating system and temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.bak
+*.gdoc
+
+# Redundant assignment submission archive
+Gidi_Mauricio_Assignment4.zip
